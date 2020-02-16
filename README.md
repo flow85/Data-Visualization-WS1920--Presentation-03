@@ -115,8 +115,24 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Now you should be able to use the visualization
 
-### 1.5 Manual: A brief manual about how to use the software. For this it makes sense to use
-screencasts or screenshots. TODO - create screencast and insert link
+### 1.5 Manual:
+
+This Screenshot shows an Overview of our GEPRIS-Patents-Dashboard for the selected Bundesland Berlin.
+With the Timeslider you are able to manipulate the visualized Timeframe of the Data.
+With the Bundesland Dropdown Menue on the right you can select a Bundesland of interest.
+With the #Projectstarts/#Patents Dropdown Menue you can choose the Linechart to switch
+betweeen Projectstarts- or Patents-Data.
+You can see a Linechart of the Projectstarts in Berlin beginning from the Year 2000 to 2018.
+Under the Linechart you can manipulate a previously selected Timeframe in form of a grey Box
+alongside of the X-Axis to have more control over your visualized Timeframe.
+One the right from the Linechart we see two Donutcharts. The upper Donutchart shows the relative
+share of Projectstarts of the selected Bundesland Berlin in the Timeframe 2000-2018. 
+The second Donutchart below shows the relative Patentshare of the selected Bundesland Berlin in
+the Timeframe 2000-2018.
+The Areachart (TODO - naming) in the below area of the Dashboard shows the subject areas of which
+the Projectstarts consist of. This Information is only available for Projectstarts and not for Patents.
+
+[gepris_dashboard_overview](https://1drv.ms/u/s!ArGZv4DiebZJkyhVd7svLqoHJbUZ?e=niIr9c)
 
 ### 1.6 Contributors: Name your group members here and add links to their (Github) profiles.
 
