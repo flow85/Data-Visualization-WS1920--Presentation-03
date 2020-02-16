@@ -7,9 +7,9 @@ Bundesland.
 ## Table of contents (TOC):
 TODO
 
-## Project description:
+## 1. Project description:
 
-### Design decisions using the “Four Nested Levels of Visualization Design” by Munzner:
+### 1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner:
 #### a. Domain problem characterization: 
 Our Main group of target users of the GEPRIS dataset consists of Students, Researchers and scientifically interested people.
 Theiy would have questions about the proportionate course of the number of research projects per Bundesland and also of the subject area 
@@ -64,7 +64,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 * For better Overview in computational design we used seperate JavaScript-Files for each Dataview-Type followed by their instanciation in the main JavaScript-File.
 
 
-### Validation of our design and lessons learned
+### 1.3 Validation of our design and lessons learned
 
 * The Bottleneck in our Visualization consists of mainly two design aspects:
 
@@ -78,11 +78,11 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Another general weakness is the fact that we are not able to show the subject areas of the number of Patents registered in each Bundesland. Regrettably the German Patents Statistic does not provide us with any information in this aspect. Also the general train of thought of comparing the number of Projectstarts to the number of Patents as a measure of efficiency and value is questionable. The Goal doing this was mainly on achieving more visualization experience during the process instead of delivering a waterproof argumentation of the represented data.
 
-### Think aloud protocol:
+### 1.4 Think aloud protocol:
 
 * TODO
 
-### Installation: How can I install the visualization project (step-by-step manual)?
+### 1.5 Installation: How can I install the visualization project (step-by-step manual)?
 
 * TODO - install python Server
 
@@ -90,7 +90,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * TODO - open Github-Link https://flow85.github.io/github.io/
 
-### Manual: A brief manual about how to use the software. For this it makes sense to use
+### 1.6 Manual: A brief manual about how to use the software. For this it makes sense to use
 screencasts or screenshots. TODO - create screencast and insert link
 
 ### Contributors: Name your group members here and add links to their (Github) profiles.
@@ -99,7 +99,7 @@ screencasts or screenshots. TODO - create screencast and insert link
 
 * Florian Mercks, https://github.com/flow85
 
-### Data copyright: 
+### 1.7 Data copyright: 
 
 * “Data derived from original data provided by https://gepris.dfg.de (c) Deutsche Forschungsgemeinschaft”
 
