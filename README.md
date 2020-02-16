@@ -5,15 +5,22 @@ Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundeslan
 Bundesland.
 
 ## Table of contents (TOC):
-__TOC__
+TODO - no possibility to jump to sections, yet
 
 1. Project description
+
 1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
+
 1.2 Validation of our design and lessons learned
+
 1.3 Think aloud protocol
+
 1.4 Installation
+
 1.5 Manual
+
 1.6 Contributors
+
 1.7 Data copyright
 
 ## 1. Project description:
