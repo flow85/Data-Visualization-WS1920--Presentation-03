@@ -101,11 +101,19 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 ### 1.4 Installation:
 
-* TODO - install python Server
+* Open Github-Pages-Link https://flow85.github.io/github.io/ to view the project or use the following steps for a local installation:
 
-* TODO - install D3
+* Install the newest python version from https://www.python.org/downloads/ and make sure to check the "add python.exe to PATH" checkbox in the installation dialog
 
-* TODO - open Github-Link https://flow85.github.io/github.io/
+* Install D3 in terminal/command line with "pip install d3" or "npm install d3"
+
+* Download the Github-Repository of the Project from https://github.com/flow85/Data-Visualization-WS1920--Presentation-03 into your root directory
+
+* Start your local python server with "python -m http.server"
+
+* Open your browser with "localhost:8000"
+
+* Now you should be able to use the visualization
 
 ### 1.5 Manual: A brief manual about how to use the software. For this it makes sense to use
 screencasts or screenshots. TODO - create screencast and insert link
