@@ -95,6 +95,10 @@ screencasts or screenshots. TODO - create screencast and insert link
 
 ### Contributors: Name your group members here and add links to their (Github) profiles.
 
+* Adriana Printo, https://github.com/adrianapintod
+
+* Florian Mercks, https://github.com/flow85
+
 ### Data copyright: 
 
 * “Data derived from original data provided by https://gepris.dfg.de (c) Deutsche Forschungsgemeinschaft”
