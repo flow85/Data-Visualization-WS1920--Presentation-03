@@ -18,6 +18,7 @@ b1. We merged the GEPRIS-Data of the the following CSV-Files to be able to relat
   * extracted_project_data.csv
   * institution_ids_and_names.csv
   * project_ids_to_subject_areas.csv
+  
 b2. We found out the Bundesland by Googleling of each Institution and therefore created a new column "Bundesland" containing the information.
 b3. We transformed the resulting CSV-File to a JSON-File to be able to follow our Tutorial on Udemy which chose explaining the 
 visualization process mainly with JSON-Files.
