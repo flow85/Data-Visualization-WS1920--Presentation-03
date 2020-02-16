@@ -5,7 +5,14 @@ Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundeslan
 Bundesland.
 
 ## Table of contents (TOC):
-TODO
+1. Project description
+1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
+1.2 Validation of our design and lessons learned
+1.3 Think aloud protocol
+1.4 Installation
+1.5 Manual
+1.6 Contributors
+1.7 Data copyright
 
 ## 1. Project description:
 
@@ -18,6 +25,7 @@ adding the patents data to the dashboard. This part of the target group might ha
 number of patents in comparison to the number of research projects started?".
 
 #### b. Data / task abstraction:
+
 b1. We merged the GEPRIS-Data of the the following CSV-Files to be able to relate projects to their institutions and subject areas.
   * extracted_project_data.csv
   * institution_ids_and_names.csv
@@ -64,7 +72,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 * For better Overview in computational design we used seperate JavaScript-Files for each Dataview-Type followed by their instanciation in the main JavaScript-File.
 
 
-### 1.3 Validation of our design and lessons learned
+### 1.2 Validation of our design and lessons learned
 
 * The Bottleneck in our Visualization consists of mainly two design aspects:
 
@@ -78,11 +86,11 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Another general weakness is the fact that we are not able to show the subject areas of the number of Patents registered in each Bundesland. Regrettably the German Patents Statistic does not provide us with any information in this aspect. Also the general train of thought of comparing the number of Projectstarts to the number of Patents as a measure of efficiency and value is questionable. The Goal doing this was mainly on achieving more visualization experience during the process instead of delivering a waterproof argumentation of the represented data.
 
-### 1.4 Think aloud protocol:
+### 1.3 Think aloud protocol:
 
 * TODO
 
-### 1.5 Installation: How can I install the visualization project (step-by-step manual)?
+### 1.4 Installation:
 
 * TODO - install python Server
 
@@ -90,10 +98,10 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * TODO - open Github-Link https://flow85.github.io/github.io/
 
-### 1.6 Manual: A brief manual about how to use the software. For this it makes sense to use
+### 1.5 Manual: A brief manual about how to use the software. For this it makes sense to use
 screencasts or screenshots. TODO - create screencast and insert link
 
-### Contributors: Name your group members here and add links to their (Github) profiles.
+### 1.6 Contributors: Name your group members here and add links to their (Github) profiles.
 
 * Adriana Printo, https://github.com/adrianapintod
 
@@ -106,5 +114,3 @@ screencasts or screenshots. TODO - create screencast and insert link
 * “Data derived from original data provided by https://www.dpma.de/dpma/veroeffentlichungen/statistiken/csv-statistiken/index.html (c) Deutsches Patent- und Markenamt”
 
 * Code derived from original Code source provides by https://www.udemy.com/course/masteringd3js (c) "Udemy.com - Mastering data visualization in D3.js"
-
-
