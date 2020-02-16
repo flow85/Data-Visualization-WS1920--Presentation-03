@@ -2,18 +2,18 @@
 
 ## Table of contents
 * [1. Short description](#1-short-description)
-* [2. Project description](#1-project-description)
-    + [2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#11-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
+* [2. Project description](#2-project-description)
+    + [2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#21-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
       - [a. Domain problem characterization](#a-domain-problem-characterization)
       - [b. Data / task abstraction](#b-data---task-abstraction)
       - [c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?](#c-visual-encoding---interaction-design--describe-the-visual-encoding-and-why-you-decided-for-it-what-interaction-types-did-you-use-and-why-)
       - [d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?](#d-algorithm-design--how-did-you-make-sure-that-the-computational-complexity-of-your-solution-is-appropriate--what-is-the-bottleneck-with-respect-to-performance-)
-    + [2.2 Validation of our design and lessons learned](#12-validation-of-our-design-and-lessons-learned)
-    + [2.3 Think aloud protocol](#13-think-aloud-protocol)
-    + [2.4 Installation](#14-installation)
-    + [2.5 Manual](#15-manual)
-    + [2.6 Contributors](#16-contributors)
-    + [2.7 Data copyright](#17-data-copyright)
+    + [2.2 Validation of our design and lessons learned](#22-validation-of-our-design-and-lessons-learned)
+    + [2.3 Think aloud protocol](#23-think-aloud-protocol)
+    + [2.4 Installation](#24-installation)
+    + [2.5 Manual](#25-manual)
+    + [2.6 Contributors](#26-contributors)
+    + [2.7 Data copyright](#27-data-copyright)
 
 ## 1. Short description
 Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundesland in direct comparison with the outcoming Patents per 
@@ -22,6 +22,7 @@ Bundesland.
 ## 2. Project description
 
 ### 2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
+
 #### a. Domain problem characterization
 Our Main group of target users of the GEPRIS dataset consists of Students, Researchers and scientifically interested people.
 Theiy would have questions about the proportionate course of the number of research projects per Bundesland and also of the subject area 
@@ -49,7 +50,7 @@ visualization process mainly with JSON-Files. We only kept the relevant Informat
 b6. TODO - Subject areas (We created a second TODO-File containing the number of subject areas per Bundesland that were included
 in the Projectstarts)
   
-#### c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?
+#### c. Visual encoding / interaction design
 We decided to use a simple and clear structured All-in-One Dashboard-Design with multiple interlinked dataviews such as:
  * Dropdown menue containing the selected Bundesland. By selecting a Bundesland of interest with a left mouseclick the user can easily decide on a geographical category of interest, followed by the visualization in all interconnected Dataviews.
  area of interest and
@@ -67,7 +68,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
  
  * TODO (Area-Chart?!) containing the subject areas of each Bundesland related to the Number of Projectsstarts. This gives the User a better understanding of the type of Projectstarts considering strongly and weakly represented subject areas. Regrettably this data is only present related to the number of Projectstarts of each Bundesland since the Trademark Registry Statistics did not contain any information about subject areas.
  
-#### d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?
+#### d. Algorithm design:
 * TODO - We tried to reduce the complexity of our solution starting with limited focus from the beginning only on a surtain aspect of the GEPRIS-Data, since we are only considering information about each Bundesland, the number of Projectstarts, the subject areas of the Projectstarts, the number of Patents and the Year concerning each Data Entry. Also the limited Timefrage from the Year 2000 to 2018 plays an advantage here.
 
 * In the next phase we reduced the Dashboard-Complexity to only a surtain amount of Dataviews which we considered as necessary and benefiting for the User.
