@@ -1,29 +1,29 @@
 # GEPRIS-Patents-Dashboard
 
-## Short description
+## 1. Short description
 Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundesland in direct comparison with the outcoming Patents per 
 Bundesland.
 
 ## Table of contents (TOC)
-* [1. Project description](#1-project-description)
-    + [1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#11-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
+* [2. Project description](#1-project-description)
+    + [2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#11-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
       - [a. Domain problem characterization](#a-domain-problem-characterization)
       - [b. Data / task abstraction](#b-data---task-abstraction)
       - [c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?](#c-visual-encoding---interaction-design--describe-the-visual-encoding-and-why-you-decided-for-it-what-interaction-types-did-you-use-and-why-)
       - [d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?](#d-algorithm-design--how-did-you-make-sure-that-the-computational-complexity-of-your-solution-is-appropriate--what-is-the-bottleneck-with-respect-to-performance-)
-    + [1.2 Validation of our design and lessons learned](#12-validation-of-our-design-and-lessons-learned)
-    + [1.3 Think aloud protocol](#13-think-aloud-protocol)
-    + [1.4 Installation](#14-installation)
-    + [1.5 Manual](#15-manual)
-    + [1.6 Contributors: Name your group members here and add links to their (Github) profiles.](#16-contributors--name-your-group-members-here-and-add-links-to-their--github--profiles)
-    + [1.7 Data copyright](#17-data-copyright)
+    + [2.2 Validation of our design and lessons learned](#12-validation-of-our-design-and-lessons-learned)
+    + [2.3 Think aloud protocol](#13-think-aloud-protocol)
+    + [2.4 Installation](#14-installation)
+    + [2.5 Manual](#15-manual)
+    + [2.6 Contributors](#16-contributors)
+    + [2.7 Data copyright](#17-data-copyright)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-## 1. Project description
+## 2. Project description
 
-### 1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
+### 2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
 #### a. Domain problem characterization
 Our Main group of target users of the GEPRIS dataset consists of Students, Researchers and scientifically interested people.
 Theiy would have questions about the proportionate course of the number of research projects per Bundesland and also of the subject area 
@@ -79,7 +79,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 * For better Overview in computational design we used seperate JavaScript-Files for each Dataview-Type followed by their instanciation in the main JavaScript-File.
 
 
-### 1.2 Validation of our design and lessons learned
+### 2.2 Validation of our design and lessons learned
 
 * The Bottleneck in our Visualization consists of mainly two design aspects:
 
@@ -93,11 +93,11 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Another general weakness is the fact that we are not able to show the subject areas of the number of Patents registered in each Bundesland. Regrettably the German Patents Statistic does not provide us with any information in this aspect. Also the general train of thought of comparing the number of Projectstarts to the number of Patents as a measure of efficiency and value is questionable. The Goal doing this was mainly on achieving more visualization experience during the process instead of delivering a waterproof argumentation of the represented data.
 
-### 1.3 Think aloud protocol
+### 2.3 Think aloud protocol
 
 * TODO
 
-### 1.4 Installation
+### 2.4 Installation
 
 * Open Github-Pages-Link https://flow85.github.io/github.io/ to view the project or use the following steps for a local installation:
 
@@ -113,7 +113,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Now you should be able to use the visualization
 
-### 1.5 Manual
+### 2.5 Manual
 
 This Screenshot shows an Overview of our GEPRIS-Patents-Dashboard for the selected Bundesland Berlin.
 With the Timeslider you are able to manipulate the visualized Timeframe of the Data.
@@ -132,13 +132,13 @@ the Projectstarts consist of. This Information is only available for Projectstar
 
 [gepris_dashboard_overview](https://1drv.ms/u/s!ArGZv4DiebZJkyhVd7svLqoHJbUZ?e=niIr9c)
 
-### 1.6 Contributors
+### 2.6 Contributors
 
 * Adriana Printo, https://github.com/adrianapintod
 
 * Florian Mercks, https://github.com/flow85
 
-### 1.7 Data copyright
+### 2.7 Data copyright
 
 * “Data derived from original data provided by https://gepris.dfg.de (c) Deutsche Forschungsgemeinschaft”
 
