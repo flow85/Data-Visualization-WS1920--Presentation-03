@@ -3,11 +3,7 @@
 ## Table of contents
 * [1. Short description](#1-short-description)
 * [2. Project description](#2-project-description)
-    + [2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#21-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
-      - [a. Domain problem characterization](#a-domain-problem-characterization)
-      - [b. Data / task abstraction](#b-data---task-abstraction)
-      - [c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?](#c-visual-encoding---interaction-design--describe-the-visual-encoding-and-why-you-decided-for-it-what-interaction-types-did-you-use-and-why-)
-      - [d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?](#d-algorithm-design--how-did-you-make-sure-that-the-computational-complexity-of-your-solution-is-appropriate--what-is-the-bottleneck-with-respect-to-performance-)
+    + [2.1 Design decisions](#21-design-decisions)
     + [2.2 Validation of our design and lessons learned](#22-validation-of-our-design-and-lessons-learned)
     + [2.3 Think aloud protocol](#23-think-aloud-protocol)
     + [2.4 Installation](#24-installation)
@@ -21,7 +17,7 @@ Bundesland.
 
 ## 2. Project description
 
-### 2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner
+### 2.1 Design decisions
 
 #### a. Domain problem characterization
 Our Main group of target users of the GEPRIS dataset consists of Students, Researchers and scientifically interested people.
