@@ -1,19 +1,23 @@
-# README to the "GEPRIS-Patents-Dashboard"
+# GEPRIS-Patents-Dashboard
 
-## Purpose of the visualization:
+## Short description: 
 Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundesland in direct comparison with the outcoming Patents per 
-Bundesland. By doing this we wanted to highlight Bundesländer with apparently high efficiency of scientific efforts resulting in a high 
-number of registered Patents which can come into use by Industries. 
+Bundesland.
 
-## Design decisions using the “Four Nested Levels of Visualization Design” by Munzner:
-### a. Domain problem characterization: 
+## Table of contents (TOC):
+TODO
+
+## Project description:
+
+### Design decisions using the “Four Nested Levels of Visualization Design” by Munzner:
+#### a. Domain problem characterization: 
 Our Main group of target users of the GEPRIS dataset consists of Students, Researchers and scientifically interested people.
 Theiy would have questions about the proportionate course of the number of research projects per Bundesland and also of the subject area 
 which they consist of. We enlarged this target group to Investors and people with a finacial background and business model interest by 
 adding the patents data to the dashboard. This part of the target group might have questions such as "Which Bundesland produces the highest
 number of patents in comparison to the number of research projects started?".
 
-### b. Data / task abstraction:
+#### b. Data / task abstraction:
 b1. We merged the GEPRIS-Data of the the following CSV-Files to be able to relate projects to their institutions and subject areas.
   * extracted_project_data.csv
   * institution_ids_and_names.csv
@@ -32,7 +36,7 @@ visualization process mainly with JSON-Files. We only kept the relevant Informat
 b6. TODO - Subject areas (We created a second TODO-File containing the number of subject areas per Bundesland that were included
 in the Projectstarts)
   
-### c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?
+#### c. Visual encoding / interaction design: Describe the visual encoding and why you decided for it. What interaction types did you use and why?
 We decided to use a simple and clear structured All-in-One Dashboard-Design with multiple interlinked dataviews such as:
  * Dropdown menue containing the selected Bundesland. By selecting a Bundesland of interest with a left mouseclick the user can easily decide on a geographical category of interest, followed by the visualization in all interconnected Dataviews.
  area of interest and
@@ -50,7 +54,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
  
  * TODO (Area-Chart?!) containing the subject areas of each Bundesland related to the Number of Projectsstarts. This gives the User a better understanding of the type of Projectstarts considering strongly and weakly represented subject areas. Regrettably this data is only present related to the number of Projectstarts of each Bundesland since the Trademark Registry Statistics did not contain any information about subject areas.
  
-### d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?
+#### d. Algorithm design: How did you make sure that the computational complexity of your solution is appropriate? What is the bottleneck with respect to performance?
 * TODO - We tried to reduce the complexity of our solution starting with limited focus from the beginning only on a surtain aspect of the GEPRIS-Data, since we are only considering information about each Bundesland, the number of Projectstarts, the subject areas of the Projectstarts, the number of Patents and the Year concerning each Data Entry. Also the limited Timefrage from the Year 2000 to 2018 plays an advantage here.
 
 * In the next phase we reduced the Dashboard-Complexity to only a surtain amount of Dataviews which we considered as necessary and benefiting for the User.
@@ -60,7 +64,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 * For better Overview in computational design we used seperate JavaScript-Files for each Dataview-Type followed by their instanciation in the main JavaScript-File.
 
 
-# Validation of our design and lessons learned
+## Validation of our design and lessons learned
 
 * The Bottleneck in our Visualization consists of mainly two design aspects:
 
@@ -74,8 +78,29 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Another general weakness is the fact that we are not able to show the subject areas of the number of Patents registered in each Bundesland. Regrettably the German Patents Statistic does not provide us with any information in this aspect. Also the general train of thought of comparing the number of Projectstarts to the number of Patents as a measure of efficiency and value is questionable. The Goal doing this was mainly on achieving more visualization experience during the process instead of delivering a waterproof argumentation of the represented data.
 
-## Think aloud protocol:
+### Think aloud protocol:
 
 * TODO
+
+### Installation: How can I install the visualization project (step-by-step manual)?
+
+* TODO - install python Server
+
+* TODO - install D3
+
+* TODO - open Github-Link https://flow85.github.io/github.io/
+
+### Manual: A brief manual about how to use the software. For this it makes sense to use
+screencasts or screenshots. TODO - create screencast and insert link
+
+### Contributors: Name your group members here and add links to their (Github) profiles.
+
+### Data copyright: 
+
+* “Data derived from original data provided by https://gepris.dfg.de (c) Deutsche Forschungsgemeinschaft”
+
+* “Data derived from original data provided by https://www.dpma.de/dpma/veroeffentlichungen/statistiken/csv-statistiken/index.html (c) Deutsches Patent- und Markenamt”
+
+* Code derived from original Code source provides by https://www.udemy.com/course/masteringd3js (c) "Udemy.com - Mastering data visualization in D3.js"
 
 
