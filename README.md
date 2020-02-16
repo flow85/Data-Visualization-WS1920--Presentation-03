@@ -1,6 +1,6 @@
 # GEPRIS-Patents-Dashboard
 
-## Table of contents (TOC)
+## Table of contents
 * [1. Short description](#1-short-description)
 * [2. Project description](#1-project-description)
     + [2.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#11-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
@@ -14,8 +14,6 @@
     + [2.5 Manual](#15-manual)
     + [2.6 Contributors](#16-contributors)
     + [2.7 Data copyright](#17-data-copyright)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## 1. Short description
 Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundesland in direct comparison with the outcoming Patents per 
