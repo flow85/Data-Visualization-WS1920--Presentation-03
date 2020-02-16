@@ -64,7 +64,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 * For better Overview in computational design we used seperate JavaScript-Files for each Dataview-Type followed by their instanciation in the main JavaScript-File.
 
 
-## Validation of our design and lessons learned
+### Validation of our design and lessons learned
 
 * The Bottleneck in our Visualization consists of mainly two design aspects:
 
