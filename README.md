@@ -5,10 +5,7 @@ Our Goal was to visualize the Project Starts of the GEPRIS-Dataset per Bundeslan
 Bundesland.
 
 ## Table of contents (TOC)
-- [GEPRIS-Patents-Dashboard](#gepris-patents-dashboard)
-  * [Short description](#short-description)
-  * [Table of contents (TOC)](#table-of-contents--toc-)
-  * [1. Project description](#1-project-description)
+* [1. Project description](#1-project-description)
     + [1.1 Design decisions using the “Four Nested Levels of Visualization Design” by Munzner](#11-design-decisions-using-the--four-nested-levels-of-visualization-design--by-munzner)
       - [a. Domain problem characterization](#a-domain-problem-characterization)
       - [b. Data / task abstraction](#b-data---task-abstraction)
@@ -135,7 +132,7 @@ the Projectstarts consist of. This Information is only available for Projectstar
 
 [gepris_dashboard_overview](https://1drv.ms/u/s!ArGZv4DiebZJkyhVd7svLqoHJbUZ?e=niIr9c)
 
-### 1.6 Contributors: Name your group members here and add links to their (Github) profiles.
+### 1.6 Contributors
 
 * Adriana Printo, https://github.com/adrianapintod
 
