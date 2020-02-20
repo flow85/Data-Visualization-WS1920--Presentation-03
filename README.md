@@ -145,6 +145,8 @@ This information is only available for Projectstarts and not for Patents.
 
 [gepris_dashboard_overview](https://1drv.ms/u/s!ArGZv4DiebZJkyhVd7svLqoHJbUZ?e=niIr9c)
 
+[GEPRIS Screencast](https://streamable.com/iqlco)
+
 ### 2.6 Contributors
 
 * Adriana Printo, https://github.com/adrianapintod
