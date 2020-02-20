@@ -90,25 +90,25 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Validate: Observe and interview target users. Observe adoption rates.
 
-** I introduce the main purpose about insights about research projectstarts and outcoming patents to my mother. She understands the problem immediately and is curious about discovering the user interface.
+  * I introduce the main purpose about insights about research projectstarts and outcoming patents to my mother. She understands the problem immediately and is curious about discovering the user interface.
 
 * Threat: Wrong task/data abstraction 
 
 * Validate: Test on target users, collect anecdotal evidence of utility. Fiels study, document human usage of deployed system.
 
-** I explain our choice to only concentrate on the number of projects and patents to make a focused comparison on these two ratios. I also explain that we wanted to show the subject areas which belong to these projectsstarts. By mentioning the fact that we also want to compare Bundesländer my mother gets the entire picture of our data abstraction and is completely briefed for the next steps.
+  * I explain our choice to only concentrate on the number of projects and patents to make a focused comparison on these two ratios. I also explain that we wanted to show the subject areas which belong to these projectsstarts. By mentioning the fact that we also want to compare Bundesländer my mother gets the entire picture of our data abstraction and is completely briefed for the next steps.
 
 * Threat: Ineffective encoding / interaction idiom
 
 * Validate: Justify encoding / interaction design. Qualitative / quantitative result image analysis. Test on any users, informal usability study. Lab study, measure human time / errors for task.
 
-** I start to explain the usage of the different visualizations and show the interlinked behaviours of the entire Dashboard to my mother. She begins to pick up the usability workflow and starts to explore the surface, browsing through different Bundesländer, especially interested in their number of patents. Her eyes follow the Linecharts and switch to the Donutdiagrams of each Bundesland. She is astouned by the efficiency of Bundesländer such as Baden Württemberg and Bayern. She mentions how little research effort they have to put in to achieve such a high output of patents. She is also irritated about the low numbers of Berlin. She mentions that she thought that Berlin would have had way higher numbers of patents. She is also interested in the amount of projectstarts that consist of the subject area medicine. I realise that she is interested more in general ratios of Bundesländer comparisons than in the exact Linechart curve along the timeline.
+  * I start to explain the usage of the different visualizations and show the interlinked behaviours of the entire Dashboard to my mother. She begins to pick up the usability workflow and starts to explore the surface, browsing through different Bundesländer, especially interested in their number of patents. Her eyes follow the Linecharts and switch to the Donutdiagrams of each Bundesland. She is astouned by the efficiency of Bundesländer such as Baden Württemberg and Bayern. She mentions how little research effort they have to put in to achieve such a high output of patents. She is also irritated about the low numbers of Berlin. She mentions that she thought that Berlin would have had way higher numbers of patents. She is also interested in the amount of projectstarts that consist of the subject area medicine. I realise that she is interested more in general ratios of Bundesländer comparisons than in the exact Linechart curve along the timeline.
 
 * Threat: Slow algorithm 
 
 * Validate: Analyze computational complexity. Measure system time / memory
 
-** We did not focus on this aspect since our dataset is limited and does not stress our system at all. 
+  * We did not focus on this aspect since our dataset is limited and does not stress our system at all. 
 
 ### 2.4 Installation
 
