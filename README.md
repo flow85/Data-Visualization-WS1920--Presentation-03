@@ -61,7 +61,7 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
  * Projects by subject area / state visualization containing the subject areas of each Bundesland related to the number of projectsstarts. This gives the user a better understanding of the type of Projectstarts considering strongly and weakly represented subject areas. Regrettably, this data is only present related to the number of Projectstarts of each Bundesland since the Trademark Registry Statistics did not contain any information about subject areas.
  
 #### d. Algorithm design:
-* TODO - We tried to reduce the complexity of our solution starting with limited focus from the beginning only on a certain aspect of the GEPRIS-Data since we are only considering information about each Bundesland, the number of Projectstarts, the subject areas of the Projectstarts, the number of Patents and the Year concerning each Data Entry. Also, the limited Timefrage from the Year 2000 to 2018 plays an advantage here.
+* We tried to reduce the complexity of our solution starting with limited focus from the beginning only on a certain aspect of the GEPRIS-Data since we are only considering information about each Bundesland, the number of Projectstarts, the subject areas of the Projectstarts, the number of Patents and the Year concerning each Data Entry. Also, the limited Timefrage from the Year 2000 to 2018 plays an advantage here.
 
 * In the next phase we reduced the Dashboard-Complexity to only a certain amount of Dataviews which we considered as necessary and benefiting for the User.
 
@@ -84,9 +84,31 @@ We decided to use a simple and clear structured All-in-One Dashboard-Design with
 
 * Another general weakness is the fact that we are not able to show the subject areas of the number of Patents registered in each Bundesland. Regrettably, the German Patents Statistic does not provide us with any information in this aspect. Also, the general train of thought of comparing the number of Projectstarts to the number of Patents as a measure of efficiency and value is questionable. The Goal doing this was mainly on achieving more visualization experience during the process instead of delivering a waterproof argumentation of the represented data.
 
-### 2.3 Think aloud protocol
+### 2.3 Think aloud protocol / Threats and Validations to Munzner's Nested Model to Visualization Design
 
-* TODO
+* Threat: Wrong problem
+
+* Validate: Observe and interview target users. Observe adoption rates.
+
+** I introduce the main purpose about insights about research projectstarts and outcoming patents to my mother. She understands the problem immediately and is curious about discovering the user interface.
+
+* Threat: Wrong task/data abstraction 
+
+* Validate: Test on target users, collect anecdotal evidence of utility. Fiels study, document human usage of deployed system.
+
+** I explain our choice to only concentrate on the number of projects and patents to make a focused comparison on these two ratios. I also explain that we wanted to show the subject areas which belong to these projectsstarts. By mentioning the fact that we also want to compare Bundesländer my mother gets the entire picture of our data abstraction and is completely briefed for the next steps.
+
+* Threat: Ineffective encoding / interaction idiom
+
+* Validate: Justify encoding / interaction design. Qualitative / quantitative result image analysis. Test on any users, informal usability study. Lab study, measure human time / errors for task.
+
+** I start to explain the usage of the different visualizations and show the interlinked behaviours of the entire Dashboard to my mother. She begins to pick up the usability workflow and starts to explore the surface, browsing through different Bundesländer, especially interested in their number of patents. Her eyes follow the Linecharts and switch to the Donutdiagrams of each Bundesland. She is astouned by the efficiency of Bundesländer such as Baden Württemberg and Bayern. She mentions how little research effort they have to put in to achieve such a high output of patents. She is also irritated about the low numbers of Berlin. She mentions that she thought that Berlin would have had way higher numbers of patents. She is also interested in the amount of projectstarts that consist of the subject area medicine. I realise that she is interested more in general ratios of Bundesländer comparisons than in the exact Linechart curve along the timeline.
+
+* Threat: Slow algorithm 
+
+* Validate: Analyze computational complexity. Measure system time / memory
+
+** We did not focus on this aspect since our dataset is limited and does not stress our system at all. 
 
 ### 2.4 Installation
 
@@ -131,8 +153,8 @@ This information is only available for Projectstarts and not for Patents.
 
 ### 2.7 Data copyright
 
-* “Data derived from original data provided by https://gepris.dfg.de (c) Deutsche Forschungsgemeinschaft”
+* Data derived from original data provided by https://gepris.dfg.de (c) "Deutsche Forschungsgemeinschaft”
 
-* “Data derived from original data provided by https://www.dpma.de/dpma/veroeffentlichungen/statistiken/csv-statistiken/index.html (c) Deutsches Patent- und Markenamt”
+* Data derived from original data provided by https://www.dpma.de/dpma/veroeffentlichungen/statistiken/csv-statistiken/index.html (c) "Deutsches Patent- und Markenamt”
 
 * Code derived from original Code source provides by https://www.udemy.com/course/masteringd3js (c) "Udemy.com - Mastering data visualization in D3.js"
